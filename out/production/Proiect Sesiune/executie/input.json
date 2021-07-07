@@ -1,0 +1,267 @@
+{
+  "caseLicitatii": [
+    {
+      "nume": "Casa de licitatie Conu' Leonida",
+      "clienti": [
+        {
+          "tipPersoana": "FIZIC",
+          "id": 1,
+          "nume": "Ciocoi Laur",
+          "adresa": "Strada florilor",
+          "dataNastere": "12.07.1998",
+          "venitTotal": 30000
+        },
+        {
+          "tipPersoana": "FIZIC",
+          "id": 2,
+          "nume": "Mihai Spataru",
+          "adresa": "Strada lalelelor",
+          "dataNastere": "13.07.1987",
+          "venitTotal": 60000
+        },
+        {
+          "tipPersoana": "JURIDIC",
+          "id": 3,
+          "nume": "Andrei emitor la masa",
+          "adresa": "Strada prostiei",
+          "tipCompanie": "SA",
+          "capitalTotal": 27300.19
+        },
+        {
+          "tipPersoana": "FIZIC",
+          "id": 4,
+          "nume": "Design pattern",
+          "adresa": "Strada Negru Voda",
+          "dataNastere": "07.12.1989",
+          "venitTotal": 14000
+        },
+        {
+          "tipPersoana": "FIZIC",
+          "id": 5,
+          "nume": "Hristos a aviat",
+          "adresa": "Strada florilor",
+          "dataNastere": "12.09.1997",
+          "venitTotal": 5000
+        },
+        {
+          "tipPersoana": "JURIDIC",
+          "id": 6,
+          "nume": "Sesiune SrL",
+          "adresa": "Strada militienilor",
+          "tipCompanie": "SRL",
+          "capitalTotal": 29300.19
+        },
+        {
+          "tipPersoana": "FIZIC",
+          "id": 7,
+          "nume": "Capcaun Ion",
+          "adresa": "Strada Muierilor",
+          "dataNastere": "11.04.1967",
+          "venitTotal": 2700
+        }
+      ],
+      "administrator": [
+        {
+          "nume": "Mike Holera",
+          "experienta": 2,
+          "notaConcurs": 6.6
+        }
+      ],
+      "brokeri": [
+        {
+          "nume": "Maic Taison",
+          "experienta": 17,
+          "notaConcurs": 10
+        },
+        {
+          "nume": "Mihai Avion",
+          "experienta": 12,
+          "notaConcurs": 8.75
+        },
+        {
+          "nume": "Pistol Laurentiu",
+          "experienta": 6,
+          "notaConcurs": 8.1
+        }
+      ],
+      "produse": [
+        {
+          "tipProdus": "Tablou",
+          "id": 1,
+          "nume": "Monalisa",
+          "pretMinim": 30000000,
+          "numePictor": "Leonardo da Vinci",
+          "culoare": "ULEI"
+        },
+        {
+          "tipProdus": "Bijuterie",
+          "id": 2,
+          "nume": "Inel nunta",
+          "pretMinim": 2100,
+          "materialBijuterie": "aur",
+          "piatraPretioasa": false
+        },
+        {
+          "tipProdus": "Mobila",
+          "id": 3,
+          "nume": "Arabesque",
+          "pretMinim": 1200,
+          "tip": "Mobila de sufragerie",
+          "materialMobila": "Lemn de nuc"
+        },
+        {
+          "tipProdus": "Bijuterie",
+          "id": 4,
+          "nume": "Inel simplu",
+          "pretMinim": 150,
+          "materialBijuterie": "aur alb",
+          "piatraPretioasa": false
+        },
+        {
+          "tipProdus": "Mobila",
+          "id": 5,
+          "nume": "Arabesque",
+          "pretMinim": 1200,
+          "tip": "Masa",
+          "materialMobila": "Lemn de abanos"
+        },
+        {
+          "tipProdus": "Tablou",
+          "id": 6,
+          "nume": "Pictura sfanta",
+          "pretMinim": 376,
+          "numePictor": "Gigi Becali",
+          "culoare": "TEMPERA"
+        },
+        {
+          "tipProdus": "Tablou",
+          "id": 7,
+          "nume": "Sut bara gol",
+          "pretMinim": 770,
+          "numePictor": "Banel Nicolita",
+          "culoare": "ACRILIC"
+        },
+        {
+          "tipProdus": "Tablou",
+          "id": 8,
+          "nume": "Vinclu",
+          "pretMinim": 559,
+          "numePictor": "Tamas",
+          "culoare": "ACRILIC"
+        },
+        {
+          "tipProdus": "Mobila",
+          "id": 9,
+          "nume": "Casa noua",
+          "pretMinim": 900,
+          "tip": "Masa pentru cina festiva",
+          "materialMobila": "PVC"
+        },
+        {
+          "tipProdus": "Bijuterie",
+          "id": 10,
+          "nume": "Lantisor",
+          "pretMinim": 250,
+          "materialBijuterie": "argint",
+          "piatraPretioasa": true
+        },
+        {
+          "tipProdus": "Tablou",
+          "id": 11,
+          "nume": "Domnul Goe",
+          "pretMinim": 900,
+          "numePictor": "I. L. Caragiale",
+          "culoare": "TEMPERA"
+        },
+        {
+          "tipProdus": "Mobila",
+          "id": 12,
+          "nume": "Mobila Tiriac",
+          "pretMinim": 11200,
+          "tip": "Set complet sufragerie",
+          "materialMobila": "Lemn de copac divin"
+        },
+        {
+          "tipProdus": "Mobila",
+          "id": 13,
+          "nume": "Mobila Tiriac",
+          "pretMinim": 10200,
+          "tip": "Set complet dormitor",
+          "materialMobila": "Lemn de copac din curtea lui Nastase"
+        },
+        {
+          "tipProdus": "Tablou",
+          "id": 14,
+          "nume": "Mihai Viteazul",
+          "pretMinim": 123213,
+          "numePictor": "Leonardo da Vinci",
+          "culoare": "ACRILIC"
+        },
+        {
+          "tipProdus": "Bijuterie",
+          "id": 15,
+          "nume": "Lant de barosan, piatra pretioasa sunt eu",
+          "pretMinim": 10000,
+          "materialBijuterie": "haur",
+          "piatraPretioasa": true
+        },
+        {
+          "tipProdus": "Mobila",
+          "id": 16,
+          "nume": "Arabesque",
+          "pretMinim": 1500,
+          "tip": "Mobila facuta manual",
+          "materialMobila": "Lemn de salcam"
+        },
+        {
+          "tipProdus": "Bijuterie",
+          "id": 17,
+          "nume": "Inel nunta",
+          "pretMinim": 1500,
+          "materialBijuterie": "platina",
+          "piatraPretioasa": false
+        },
+        {
+          "tipProdus": "Tablou",
+          "id": 18,
+          "nume": "Pe langa poarta",
+          "pretMinim": 750,
+          "numePictor": "Marius Niculae",
+          "culoare": "ACRILIC"
+        },
+        {
+          "tipProdus": "Tablou",
+          "id": 19,
+          "nume": "Transversala",
+          "pretMinim": 1559,
+          "numePictor": "Gabi Stanciu",
+          "culoare": "TEMPERA"
+        },
+        {
+          "tipProdus": "Mobila",
+          "id": 20,
+          "nume": "Casa noua",
+          "pretMinim": 900,
+          "tip": "Masa pentru cina festiva",
+          "materialMobila": "PVC"
+        },
+        {
+          "tipProdus": "Bijuterie",
+          "id": 21,
+          "nume": "Cercei de botez",
+          "pretMinim": 450,
+          "materialBijuterie": "argint",
+          "piatraPretioasa": true
+        },
+        {
+          "tipProdus": "Bijuterie",
+          "id": 22,
+          "nume": "Inel logodna",
+          "pretMinim": 1100,
+          "materialBijuterie": "aur",
+          "piatraPretioasa": false
+        }
+      ]
+    }
+  ]
+}

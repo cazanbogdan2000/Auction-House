@@ -1,0 +1,25 @@
+login_as client 3
+afiseazaproduse
+liciteazaprodus 2
+liciteazaprodus 3
+quit
+login_as client 2
+liciteazaprodus 2
+liciteazaprodus 17
+exit
+login_as client 7
+liciteazaprodus 1
+liciteazaprodus 4
+liciteazaprodus 8
+exit
+login_as client 3
+liciteazaprodus 2
+liciteazaprodus 4
+liciteazaprodus 17
+exit
+login_as client 1
+afiseazaproduse
+liciteazaprodus 2
+liciteazaprodus 3
+liciteazaprodus 17
+exit

@@ -1,0 +1,48 @@
+login_as client 1
+afiseazaproduse
+liciteazaprodus 2
+liciteazaprodus 3
+liciteazaprodus 13
+exit
+login_as client 2
+liciteazaprodus 4
+liciteazaprodus 3
+liciteazaprodus 19
+afiseazaproduse
+quit
+login_as client 3
+liciteazaprodus 1
+liciteazaprodus 2
+liciteazaprodus 3
+liciteazaprodus 13
+afiseazaproduse
+exit
+login_as client 4
+afiseazaproduse
+liciteazaprodus 5
+liciteazaprodus 7
+liciteazaprodus 13
+quit
+login_as client 5
+afiseazaproduse
+liciteazaprodus 5
+liciteazaprodus 19
+liciteazaprodus 6
+exit
+login_as client 6
+liciteazaprodus 7
+liciteazaprodus 4
+liciteazaprodus 5
+quit
+login_as client 7
+afiseazaproduse
+liciteazaprodus 1
+liciteazaprodus 2
+liciteazaprodus 3
+liciteazaprodus 4
+liciteazaprodus 5
+liciteazaprodus 6
+liciteazaprodus 7
+liciteazaprodus 8
+liciteazaprodus 9
+quit

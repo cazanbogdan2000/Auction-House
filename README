@@ -1,0 +1,72 @@
+Cazan Bogdan-Marian
+323 CB
+
+                            PROIECT SESIUNE POO
+                           CASA DEL LICITATIONES
+
+        Pentru realizarea acestei teme, am folosit jdk 15, cu anumite detalii
+specifice numai acestei versiuni.
+        Mecanismul de functionare al intregului program:
+    -> se citeste dintr-un fisier tip json o lista de casa de licitatii (programul
+    este implementat de asa natura incat sa permita functionarea a mai multor
+    case de licitatii in aceeasi zi, insa in json-ul nostru avem doar o singura
+    casa de licitatii, deoarece asa scrie si in tema)
+    -> se citeste apoi un numar intreg de la tastatura, cuprins intre 1 si 10,
+    care reprezinta numarul testului care se doreste a fi rulat
+    -> testul consta in doua fisiere, unul ce contine comenzi pentru un client
+    (cum ar fi login_as, afiseazaproduse, liciteazaprodus, exit, etc), si un
+    alt fisier, care contine comenzi pe care un administrator le poate efectua
+    -> de mentionat ca noi in tema lucram cu un singur administrator, insa
+    implementarea temei sustine si lucrarea cu mai multi administratori, in cazul
+    in care acestia sunt cititi din json
+    -> atat pentru clienti, cat si pentru administrator(i) se vor crea threaduri
+    ce vor rula in acelasi timp, realizandu-se astfel sarcina din enunt: "Clientii
+    pot vizualiza lista de produse, brokerii pot sterge produse care au fost deja
+    vandute, iar administratorii pot adauga noi produse, toate acestea in acelasi
+    timp"
+    -> brokerii sunt implementati in problema ca niste entitati fantoma, care nu
+    au comenzi dintr-un fisier de citit, produsele fiind sterse in momentul
+    vanzarii; totusi, brokerii au un impact major, facand toata legatura dintre
+    clienti si casa de licitatii pe parcursul unei licitatii, asigurandu-se ca
+    acestea doua din urma nu au nevoie de o comunicare directa intre ele
+    -> pasii de licitatie sunt cei din enuntul problemei, selectand in anumite
+    cazuri preturile de start si bid-urile la fiecare pas fie random, generandu-le,
+    fie dupa anumite euristici; aceste detalii nu sunt extrem de importante in
+    realizarea proiectului
+    -> la finalul unei licitatii, se stabileste clientul castigator, care va
+    plati integral produsul castigat + comisionul ce ii revine brokerului de
+    care apartine; brokerul clientului castigator va scoate produsul din lista
+    de produse si va elimina din lista de licitatii active licitatia proaspat
+    finalizata
+    -> restul brokerilor au datoria de a returna participantilor banii investiti
+    pentru acel produs, intrucat nu au castigat licitatia
+    -> daca vor mai fi clienti care vor dori sa liciteze in viitor pentru
+    respectivul produs, acest lucru va fi imposibil, deoarece produsul a fost
+    deja scos din lista produselor din casa de licitatii
+
+        Punctele indeplinite in cadrul proiectului, din sesiunea punctaj,
+sunt acestea:
+    < Multithreading-ul a fost explicat mai sus
+    < Am implementat urmatoarele 4 design pattern-uri: singleton pentru construirea
+    caselor de licitaii (nu casa de licitatie este singleton), builder pentru
+    produs, un factory GENERIC pentru clienti, si un observer al casei de licitaie,
+    care notifica clientii si brokerii de rezultatul unei licitatii, la finalul
+    acesteia
+    < genericitatea - spusa la pasul anterior, implementarea design patternului
+    factory
+    < testarea aplicatiei cu minim 10 scenarii - se selecteaza de la stdin
+    testul dorit
+    < folosirea diferitelor concepte POO, cum ar fi encapsulare (getteri si
+    setteri), mostenire + abstractizare, si apeluri polimorfice
+    < respectarea principiilor SOLID, codul fiind inteligibil si usor de inteles,
+    numele atributelor si metodelor utilizate fiind mai mult decat sugestive
+    < ca si implementari wow, putem considera utilizarea unor switch-uri speciale,
+    cu arrow functions, expresii lambda (care sunt tot arrow functions), dar nu
+    in ultimul rand utilizarea fisierelor tip json
+    < early bird - missed this one :(
+    < unit testing folosit in cadrul proiectului pentru diferte functionalitati
+    ale codului, cum ar fi verificare daca anumite obiecte au fost initializate
+    in mod corespunzator, sau daca anumite variabile respecta conditii logice
+    de implementare (spre exemplu, pretul unui produs sa nu fie negativ)
+
+    FINAL :)
